@@ -1,1 +1,1 @@
-# Module to work with skyscrapers game
+# Module to work with the puzzle
