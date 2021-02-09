@@ -63,7 +63,6 @@ Returns True if not, else False.
                     color_temp.append(board[i][j])
             i += 1
         while i + j != 13:
-            print(color_temp)
             if board[i][j] != ' ':
                 if board[i][j] in color_temp:
                     return False
@@ -87,14 +86,3 @@ def validate_board(board: list) -> bool:
             check_color(board):
         return True
     return False
-print(check_color([
-    "****1****",
-    "*** 2****",
-    "**  3****",
-    "*   4****",
-    "    56781",
-    "        *",
-    "2      **",
-    "      ***",
-    "3 4  ****"
-    ]))
