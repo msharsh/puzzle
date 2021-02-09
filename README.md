@@ -1,1 +1,1 @@
-# Module to work with the puzzle
+# Module that workd with the puzzle game
